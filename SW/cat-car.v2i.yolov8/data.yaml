@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['car', 'cat']
+
+roboflow:
+  workspace: project-7ruuz
+  project: cat-car-nb7ca
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-7ruuz/cat-car-nb7ca/dataset/2

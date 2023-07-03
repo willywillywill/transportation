@@ -1,0 +1,9 @@
+config_masks_camera1: D:\main_code\city-yolov8\config_dataset\config-1\config_masks_camera1.yaml
+config_masks_camera2: D:\main_code\city-yolov8\config_dataset\config-1\config_masks_camera2.yaml
+camera1: http://192.168.10.203/camera
+camera2: http://192.168.10.176/camera
+nodemcu: http://192.168.10.120
+model: D:\main_code\city-yolov8\runs\detect\train23\weights\best.pt
+obj:
+  - car
+  - cat
